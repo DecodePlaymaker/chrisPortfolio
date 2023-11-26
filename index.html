@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Chris Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+
+<body>
+<!--The header holds my name and links to about me, work, contact and resume-->
+        <header>
+            <h1>Chris Sanchez</h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="about.html">About Me</a>
+                        </li>
+                        <li>
+                            <a href="work.html">Work</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact Me</a>
+                        </li>
+                        <li>
+                            <a href="resume.html">Resume</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+        
+ <!--The section outside the main has code that support the image with a cool subtitle-->       
+<section class="container">
+    <img id="imagecontainer" src="./images/background.jpg">
+    <h2 class="subtitle">Front-end Developer</h2>
+</section>
+<main>
+<!--In the second section a paragraph describes my goals for the job I am playing for-->
+    <section>
+        <h2 class="side">About Me</h2>
+        <div>
+            <p> My name is Chris Sanchez and I'm a web developer from Portland,Oregon.
+                I specialized in HTML, CSS and JavaScript. I love creating websites that look beautiful 
+                and are functional to satisfied customers. It's my mission to make the internet a better 
+                place by providing users with an enjoyable experience and easy accesiblity. 
+                I strive to stay up to date with the lastest trends in web development so that I can provide 
+                my clients with the best solutions. 
+            </p>
+        </div>  
+    </section>
+    <h2 class="sidework">Work</h2>
+    <section>
+<!--Multiple div holding different images links that accessible to click hover. The images are place
+    placeholder and I got them from the web browers in google. I divided the four images into two different
+    classes to create rows and colums under the first work project.-->
+        <div>
+            <h3 class="sub">Weather App</h3>
+            <p class="des">JavaScript/HTML/CSS/API</p>
+           <a href="./work/weather.html" ><img id="pro" src="./images/weather.jpg"></a>
+        </div>
+    </section>
+    
+    <div class="flexboxes">
+       
+        <div>
+            <a href="./work/calculator.html"><img src="./images/calculator.jpg" alt=""></a>
+        </div>
+
+        <div>
+            <a href="./work/quiz.html"><img src="./images/quiz.jpg" alt=""></a>
+        </div>
+    </div>
+    <div class="fle">
+        <div>
+            <a href="./work/generator.html"><img src="./images/generator.jpeg" alt=""></a>
+        </div>
+
+        <div>
+            <a href="./work/todo.html"><img src="./images/list.jpg" alt=""></a>
+        </div>
+    </div>
+<!--I wasnt able to add the title and programs inside the images to help describe the projects.
+    I have h3 and p to describe my images.-->
+    <div>
+    <h3>Calculator</h3>
+    <p>React/JavaScript/CSS</p>
+
+    <h3>Quiz App</h3>
+    <p>NodeJs/HTML/JavaScript/CSS</p>
+
+    <h3>Background Generator</h3>
+    <p>React/JavaScript/CSS</p>
+
+    <h3>To-do-List</h3>
+    <p>HTML/JavaScript/CSS</p>
+    </div>
+
+    <!--In this section I have my contact information in a list with a title called contact me
+        and links to github, twitter and spotify. An example of where my contact information
+        would along with my email-->
+    <section>
+        <h2 class="contact">Contact Me</h2>
+        <ul class="info">
+            <li>999-999-9999</li>
+            <li>Chrissanchez3d@gmail.com</li>
+            <li><a href="https://github.com">Github</a></li>
+            <li><a href="https://twitter.com">Twitter</a></li>
+            <li><a href="https://spotify.com">Spotify</a></li>
+        </ul>
+    </section>
+</main>
+</body>
+</html>

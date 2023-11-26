@@ -1,0 +1,136 @@
+body {
+    display:flex;
+    flex-direction:column;
+    height:1;
+    font-family: Arial;
+    margin: 0;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 1px;
+    background-color: #50525a;
+    color: #50525a;
+  }
+
+h1  {
+    font-size:250%;
+    background-color: #13c1ce;
+}
+
+main {
+    margin-left: 160px;
+    padding: 0px 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-size:120%;
+}
+
+nav a {
+    color: #13c1ce;
+    font-weight: bold;
+    list-style:none;
+  }
+
+nav ul {
+    list-style:none;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+#imagecontainer {
+    background: url("./images/background.jpg") no-repeat;
+    width:100%;
+    height:350px;
+    position: relative;
+    text-align:center;
+    border:none;
+  }
+  
+.subtitle {
+    position: absolute;
+    color: #ffffff;
+    left: 80%;
+    bottom:20px ;
+    background-color: #13c1ce;
+    padding: 0 1rem;
+  }
+
+.side {
+    height: 10%; 
+    width: 150px;
+    position:absolute;
+    left: 20px;
+    background-color: #ffffff; 
+    padding-top: 20px;
+    border-right: 3px solid rgb(4, 112, 139);
+  }
+
+.sidework {
+    height: 50%; 
+    width: 150px;
+    position:absolute;
+    left: 20px;
+    background-color: #ffffff; 
+    padding-top: 20px;
+    border-right: 3px solid rgb(4, 112, 139);
+}
+
+#pro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  }
+
+div.flexboxes {
+  display: flex;
+  flex-flow: column;
+  padding:5px;
+}
+
+div.fle, div.flexboxes{
+  display: flex;
+  flex-flow: row
+
+}
+
+img {
+  height:70%;
+  width: 70%;
+  border: 4px solid #13c1ce;
+}
+
+.contact {
+    height: 5%; 
+    width: 150px;
+    position:absolute;
+    left: 20px;
+    background-color: #ffffff; 
+    padding-top: 20px;
+    border-right: 3px solid rgb(4, 112, 139);
+}
+
+@media screen and (max-height: 450px) {
+    .side {padding-top: 15px;}
+    .side h2 {font-size: 18px;}
+  }
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-size:120%;
+    font-weight:bold;
+    text-decoration:underline;
+    list-style: none;
+  }
